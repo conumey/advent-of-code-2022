@@ -6,6 +6,7 @@ fn main() {
     println!("Advent of Code 2022!\n");
     days::day1::do_day_1();
     days::day2::do_day_2();
+    days::day3::do_day_3();
 }
 
 pub fn read_input(day: i8) -> Vec<String> {
