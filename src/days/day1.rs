@@ -1,4 +1,5 @@
 pub fn do_day_1(){
+    println!("Day 1:");
     let input = super::super::read_input(1);
     let mut elf_food: Vec<i32> = Vec::new();
     let mut elf_calories: Vec<i32> = Vec::new();
