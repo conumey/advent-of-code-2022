@@ -31,8 +31,8 @@ pub fn do_day_1(){
 
     let top_three_total: i32 = top_three_slice.iter().sum();
     
-    println!("Highest number of calories on a single elf: {}", elf_calories.iter().max().expect("can't parse calories").to_string());
+    println!("  Part 1: {}", elf_calories.iter().max().expect("can't parse calories").to_string());
 
-    println!("Total number of calories on top 3 elves: {}", top_three_total.to_string());
+    println!("  Part 2: {}", top_three_total.to_string());
 }
 

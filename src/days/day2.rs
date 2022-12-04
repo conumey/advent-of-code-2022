@@ -42,7 +42,7 @@ pub fn do_day_2(){
         score += get_score(&my_move, their_move);
     }
 
-    println!("Final score (part 1) is: {}", score);
+    println!("  Part 1: {}", score);
 
     let mut score2 = 0;
 
@@ -60,7 +60,7 @@ pub fn do_day_2(){
         score2 += get_score(&my_move, &their_move)
     }
 
-    println!("Final score (part 2) is: {}", score2);
+    println!("  Part 2: {}", score2);
 
 }
 

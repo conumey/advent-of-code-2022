@@ -1,6 +1,8 @@
 use std::convert::TryInto;
 
 pub fn do_day_3() {
+    println!("Day 3:");
+
     let alphabet:Vec<char> = "0abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".chars().collect();
 
     let input = super::super::read_input(3);
@@ -21,7 +23,7 @@ pub fn do_day_3() {
         }
     }
 
-    println!("Sum total of item priorities part 1: {}", score);
+    println!("  Part 1: {}", score);
 
     let mut score2 = 0;
 
@@ -40,7 +42,7 @@ pub fn do_day_3() {
         }
     }
 
-    println!("Sum total of item priorities part 2: {}", score2);
+    println!("  Part 2: {}", score2);
 }
 
 fn get_character_value(ch:char, alpha:Vec<char>)-> i32{
